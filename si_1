@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+#include <sys/types.h>
+
+int main() {
+
+char str[100];
+int i;
+
+printf("Enter a string and a number followed by the space bar: ");
+scanf("%s %d", str, &i);
+
+printf("You entered: %s %d", str, i);
+
+
+
+    return 0;
+}
